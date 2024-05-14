@@ -39,3 +39,7 @@ class Price:
         res= self.S*norm.cdf(d1_) - (self.K * np.exp(-self.r * self.T) *\
             norm.cdf(d2_))-(self.S-self.K*np.exp(-self.r*self.T))
         return (format(res, ".5f"))
+    
+    def delta(self):
+        return self.d1()
+    
