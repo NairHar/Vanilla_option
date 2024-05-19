@@ -41,5 +41,10 @@ class Price:
         return (format(res, ".5f"))
     
     def delta(self):
-        return self.d1()
+        res = self.d1()
+        return res 
+    
+    def gamma(self):
+        res = self.d() - (self.sigma * np.sqrt(self.T))
+        return res
     
