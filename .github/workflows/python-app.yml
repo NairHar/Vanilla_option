@@ -29,7 +29,8 @@ jobs:
         pip install flake8 pytest
         pip install git+https://github.com/NairHar/Vanilla_option.git
         pip install numpy
-        pip install unittest, sys
+        pip install unittest 
+        pip install sys
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
