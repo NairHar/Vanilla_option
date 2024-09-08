@@ -1,5 +1,4 @@
-import unittest
-import sys
+import pytest
 from bs import price as bs
 
 class TestVanilla(unittest.TestCase):
@@ -15,4 +14,4 @@ class TestVanilla(unittest.TestCase):
         self.assertEqual(result,5.84628)
         
 if __name__ == '__main__':
-    unittest.main()
+    pytest.main()
