@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bs"
+version = "1.0.0"
+authors = [
+    {name = "hari nair", email = "hk1987.nair@yahoo.com"},
+]

@@ -1,7 +1,6 @@
 import unittest
 import sys
-sys.path.append("D:\PythonProgrammingExercises_Assessments\Vanilla_option")
-import price as bs
+from bs import price as bs
 
 class TestVanilla(unittest.TestCase):
     
